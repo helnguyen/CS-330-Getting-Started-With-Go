@@ -28,22 +28,59 @@ To install and set up Go in Visual Studio Code, you can follow these steps:
 4. **Create a Go Project**: Create a new directory for your Go project. Inside this directory, you can create your Go source code files (`.go` files). In our case write `hello.go`
 
 6. **Write Go Code**: Build code following the code below:  
-```
-package main
+   ```go
+   package main
 
-import "fmt"
+   import "fmt"
 
-func main() {
-    fmt.Println("Hello World")
-}
-```
+   func main() {
+       fmt.Println("Hello, World!")
+   }
+   ```
 ### Ensuring Go Is Working Properly
 
 7. **Run and Debug**: Use the integrated terminal to execute commands like `go run` to run your program or click on the play icon on the top right. If code run in the `Output` tab, click on the setting icon in the bottom left corner, select `Setting` > `User` > `Extension` > `Run Code configeration`. Ensure that the `Run In Terminal` box is checked off.
 
 8. **Manage Notifications**: After running the code notificatios may pop up from the `Go (Extension)`depending on your system. Just install all the recommeded module.
 
-That's it! You've successfully installed and set up Go in Visual Studio Code. You can now start writing, running, and debugging your Go programs in the IDE.
+### Commenting on Go
+In Go, you can add comments to your code using two different styles: single-line comments and multi-line (block) comments. Here's how you can use both styles:
+
+1. **Single-Line Comments**: To add a single-line comment in Go, you use double slashes `//`. Anything after `//` on the same line is considered a comment and is ignored by the Go compiler.
+
+   ```go
+   package main
+
+   import "fmt"
+
+   func main() {
+       // This is a single-line comment
+       fmt.Println("Hello, World!")
+   }
+   ```
+
+   Single-line comments are typically used for short comments or explanations on the same line as the code.
+
+2. **Multi-Line (Block) Comments**: For longer comments that span multiple lines, you can use the `/*` and `*/` delimiters. Anything between `/*` and `*/` is treated as a comment block.
+
+   ```go
+   package main
+
+   import "fmt"
+
+   func main() {
+       /*
+       This is a multi-line comment
+       that can span multiple lines.
+       */
+       fmt.Println("Hello, World!")
+   }
+   ```
+
+   Multi-line comments are often used for documenting code or providing more extensive explanations.
+
+
+That's it! You've successfully installed and set up Go in Visual Studio Code. You can now start writing, commenting, running, and debugging your Go programs.
 
 ## References 
 [1] https://www.geeksforgeeks.org/go-programming-language-introduction/ \
@@ -51,4 +88,6 @@ That's it! You've successfully installed and set up Go in Visual Studio Code. Yo
 [3] https://www.bairesdev.com/blog/best-golang-ide-text-editor/ \
 [4] https://code.visualstudio.com/docs/languages/go \
 [5] https://www.geeksforgeeks.org/how-to-install-golang-in-vscode/ \
-[6] https://www.geeksforgeeks.org/hello-world-in-golang/ 
+[6] https://www.geeksforgeeks.org/hello-world-in-golang/ \
+[7] https://tip.golang.org/doc/comment \
+[8] https://www.w3schools.com/go/go_comments.php#:~:text=Go%20Single%2Dline%20Comments,(will%20not%20be%20executed).
