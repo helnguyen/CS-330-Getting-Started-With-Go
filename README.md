@@ -19,7 +19,7 @@ To install and set up Go in Visual Studio Code, you can follow these steps:
 ### Installing 
 1. **Install Go**: Before you begin, ensure that you have Go installed on your system. You can download and install it from the official Go website: https://golang.org/dl/
 
-2. **Install Visual Studio Code**: D If you haven't already,download and install Visual Studio Code from the official website: https://code.visualstudio.com/
+2. **Install Visual Studio Code**: If you haven't already,download and install Visual Studio Code from the official website: https://code.visualstudio.com/
 
 3. **Install Go Extension**: Open Visual Studio Code, and in the Extensions sidebar, search for "Go" in the marketplace. Look for the official Go extension by Microsoft and install it. It is optional but it is also helpful to install "Code Runner" also downloadable in the Extension sidebar.
 
@@ -41,7 +41,7 @@ To install and set up Go in Visual Studio Code, you can follow these steps:
 
 7. **Run and Debug**: Use the integrated terminal to execute commands like `go run` to run your program or click on the play icon on the top right. If code run in the `Output` tab, click on the setting icon in the bottom left corner, select `Setting` > `User` > `Extension` > `Run Code configeration`. Ensure that the `Run In Terminal` box is checked off.
 
-8. **Manage Notifications**: After running the code notificatios may pop up from the `Go (Extension)`depending on your system. Just install all the recommeded module.
+8. **Manage Notifications**: After running the code notificatios may pop up from the `Go (Extension)` depending on your system. Just install all the recommeded modules.
 
 ### Commenting on Go
 In Go, you can add comments to your code using two different styles: single-line comments and multi-line (block) comments. Here's how you can use both styles:
